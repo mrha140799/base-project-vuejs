@@ -1,0 +1,67 @@
+body {
+  font-size: .875rem!important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .el-form--label-top label {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .row {
+    margin: 0;
+  }
+  .el-table {
+    z-index: 0;
+  }
+  .el-input__inner {
+    padding: 0 10px;
+  }
+  .el-input {
+    width: 100%!important;
+  }
+  .el-select {
+    width: 100%!important;
+  }
+  //toast
+  #toast-container > div{
+    opacity: 1 !important;
+  }
+  .toast-success {
+    background-color: $colorSuccess !important;
+  }
+
+  .toast-error {
+    background-color: $colorDanger !important;
+  }
+
+  .toast-info {
+    background-color: $colorInfo !important;
+  }
+
+  .toast-warning {
+    background-color: $colorWarning !important;
+  }
+
+  #nprogress .spinner {
+    z-index: 9999999;
+  }
+  #nprogress .bar{
+    z-index: 9999999;
+    height: 3px;
+  }
+  #nprogress .bar {
+    background: $colorSuccess !important;
+  }
+  #nprogress .spinner-icon {
+    border-top-color:$colorSuccess !important;
+    border-left-color:$colorSuccess !important;
+  }
+  button:focus {
+    outline: 0 auto !important;
+  }
+}
