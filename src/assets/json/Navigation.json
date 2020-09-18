@@ -1,0 +1,20 @@
+[
+  {
+    "nameKey": "Home",
+    "url": "/admin/home",
+    "icon": "cil-list",
+    "meta": {
+      "allowAccess": ["Admin"],
+      "page": "Admin"
+    }
+  },
+  {
+    "nameKey": "Demo",
+    "url": "/admin/demo",
+    "icon": "cil-cog",
+    "meta": {
+      "allowAccess": ["Admin"],
+      "page": "Admin"
+    }
+  }
+]

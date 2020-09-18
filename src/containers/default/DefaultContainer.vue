@@ -9,16 +9,18 @@
       <button class="c-sidebar-minimizer c-class-toggler" id="button_mini_size_sidebar" type="button" data-target="_parent" data-class="c-sidebar-minimized"></button>
     </div>
     <div class="c-wrapper c-fixed-components">
-      <HeaderContainer/>
+      <header class="c-header c-header-light c-header-fixed c-header-with-subheader">
+        <button class="c-header-toggler ml-0 c-class-toggler mfs-3 d-md-down-none" type="button" data-target="#sidebar" data-class="c-sidebar-lg-show" responsive="true">
+          <i class="cil-menu"></i>
+        </button>
+      </header>
     </div>
   </div>
 </template>
 
 <script>
-  import HeaderContainer from './HeaderContainer';
-export default {
+  export default {
   name: 'DefaultContainer',
-  components: { HeaderContainer },
   data() {
     return {
     };
